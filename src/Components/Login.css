@@ -5,6 +5,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  scroll-behavior: smooth;
 }
 
 .login__logo {
@@ -37,61 +38,61 @@
   background-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.8) 0,
-    rgba(0, 0, 0,0) 60%,
+    rgba(0, 0, 0, 0) 60%,
     rgba(0, 0, 0, 0.8) 100%
   );
 }
 
-.login__body{
-    position: absolute;
-    width: 100%;
-    top: 24%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    z-index: 1;
-    color: #fff;
-    padding: 20px;
+.login__body {
+  position: absolute;
+  width: 100%;
+  top: 24%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 1;
+  color: #fff;
+  padding: 20px;
 }
 
-.login__body >h1{
-    font-size: 2.60rem;
-    margin-bottom: 20px;
-    padding-right: 40px;
+.login__body > h1 {
+  font-size: 2.6rem;
+  margin-bottom: 20px;
+  padding-right: 40px;
 }
 
-.login__body >h2{
-    font-size: 1.3rem;
-    font-weight: 400;
-    margin-bottom: 20px;
-    padding-right: 40px;
+.login__body > h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-right: 40px;
 }
 
-.login__body >h3{
-    font-size: 0.9rem;
-    font-weight: 400;
-    padding-right: 40px;
+.login__body > h3 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding-right: 40px;
 }
 
-.login__input{
-    padding: 10px;
-    margin: 5px;
+.login__input {
+  padding: 10px;
+  margin: 5px;
 }
 
-.login__input >form >input{
-    padding: 5px;
-    outline-width: 0;
-    height: 30px;
-    width: 30%;
-    border: none;
-    max-width: 600px;
+.login__input > form > input {
+  padding: 5px;
+  outline-width: 0;
+  height: 30px;
+  width: 30%;
+  border: none;
+  max-width: 600px;
 }
 
-.getstarted{
-    margin-top: -2px;
-    padding: 11px 20px;
-    font-size: 1rem;
-    color: #fff;
-    background-color: #e50914;
-    border: none;
+.getstarted {
+  margin-top: -2px;
+  padding: 11px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
 }
