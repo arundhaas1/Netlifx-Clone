@@ -56,7 +56,7 @@
 }
 
 .login__body > h1 {
-  font-size: 2.6rem;
+  font-size: 2.3rem;
   margin-bottom: 20px;
   padding-right: 40px;
 }
@@ -72,6 +72,8 @@
   font-size: 0.9rem;
   font-weight: 400;
   padding-right: 40px;
+  left: 0;
+  right: 0;
 }
 
 .login__input {
@@ -95,4 +97,6 @@
   color: #fff;
   background-color: #e50914;
   border: none;
+  /* margin-left: 5px; */
+  font-weight: 600;
 }
