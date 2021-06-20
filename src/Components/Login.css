@@ -99,6 +99,8 @@
   border: none;
   /* margin-left: 5px; */
   font-weight: 600;
+  width: 55%;
+  margin-right: 10px;
 }
 
 .credits{
