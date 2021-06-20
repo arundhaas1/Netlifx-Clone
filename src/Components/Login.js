@@ -31,7 +31,6 @@ function Login() {
             </h3>
             <div className="login__input">
               <form>
-                <input type="email" placeholder="Email Address" />
                 <button onClick={() => setSignin(true)} className="getstarted">
                   GET STARTED
                 </button>
