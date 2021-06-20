@@ -25,7 +25,7 @@ function App() {
       }
     });
     // unsubscribe()
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className="app">
@@ -37,12 +37,11 @@ function App() {
             <Route path="/home">
               <HomeScreen />
             </Route>
+            <Route path="/profile">
+              <Profile />
+            </Route>
           </Switch>
         )}
-
-        <Route className="/profile">
-          <Profile />
-        </Route>
       </Router>
     </div>
   );

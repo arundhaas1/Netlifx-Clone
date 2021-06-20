@@ -1,0 +1,104 @@
+.profile{
+    height: 100vh;
+    color: white;
+    padding-bottom: 25px;
+    margin-top: -25px;
+}
+.profile__body{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8%;
+    max-width: 800px;
+}
+
+.profile__info{
+    display: flex;
+}
+
+.profile__info >img{
+    height: 100px;
+}
+
+.profile__body >h1{
+    font-size: 50px;
+    font-weight: 400;
+    border-bottom: 1px solid #282c2d;
+    margin-bottom: 20px;
+}
+
+.profile__details{
+    color: white;
+    flex: 1;
+    margin-left: 25px;
+}
+
+.profile__details >h2{
+    background-color: gray;
+    padding: 15px;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.profile__signout{
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 5%;
+    width: 100%;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.profile__plans >h3{
+    border-bottom: 1px solid #282c2d;
+    padding-bottom: 10px;
+    margin-top: 6px;
+}
+
+.standard , .basic , .premium{
+    display: flex;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.sbuts, .bbuts , .pbuts{
+    margin-left: auto;
+}
+
+.sbuts > button{
+    padding: 7px 14px;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.bbuts >button{
+    padding: 7px 14px;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.pbuts > button{
+    padding: 7px 14px;
+    color: #fff;
+    background-color: gray;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+
+}
+
+.profile__plans >h5{
+    margin-top: 7px;
+}
