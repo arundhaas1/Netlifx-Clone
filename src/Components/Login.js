@@ -35,6 +35,7 @@ function Login() {
                 <button onClick={() => setSignin(true)} className="getstarted">
                   GET STARTED
                 </button>
+                <p className="credits">	©Arun Dhas</p>
               </form>
             </div>
           </>

@@ -100,3 +100,10 @@
   /* margin-left: 5px; */
   font-weight: 600;
 }
+
+.credits{
+  font-weight: bold;
+  opacity: 0.3;
+  font-size: 21px;
+  margin-top: 10px;
+}
