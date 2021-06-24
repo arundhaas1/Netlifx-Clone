@@ -27,7 +27,7 @@ function Profile() {
               <div className="standard">
                 <div>
                   <p>Netflix Standard</p>
-                  <p>1080p</p>
+                  <p className="quality">1080p</p>
                 </div>
                 <div className="sbuts">
                   <button>Subscribe</button>
@@ -36,7 +36,7 @@ function Profile() {
               <div className="basic">
                 <div>
                   <p>Netflix Basic</p>
-                  <p>480p</p>
+                  <p className="quality">480p</p>
                 </div>
                 <div className="bbuts">
                   <button>Subscribe</button>
@@ -45,7 +45,7 @@ function Profile() {
               <div className="premium">
                 <div>
                 <p>Netflix Premium</p>
-                  <p>4K+HDR</p>
+                  <p className="quality">4K+HDR</p>
                 </div>
                 <div className="pbuts">
                   <button>Current Package</button>
